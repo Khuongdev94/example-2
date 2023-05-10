@@ -51,11 +51,7 @@ form{
     width: 6rem;
     height: 10rem;
     float: left;
-<<<<<<< HEAD
-=======
-
   }
-
   .content{
     width: 15rem;
     background-color: rgba(0, 0, 255, 0.393);
@@ -69,7 +65,6 @@ form{
     width: 6rem;
     height: 10rem;
     float: left;
->>>>>>> day11/5
     background-color: rgba(121, 24, 108, 0.712)
 }
 .artcle{
