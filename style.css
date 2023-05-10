@@ -1,0 +1,49 @@
+:root { 
+  color: aqua;
+}
+ * { 
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.4;
+}
+
+body {   
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    height: 100vh;
+}
+
+.style{
+    color: blue;
+    text-align: justify;
+}
+form{
+    width: 20rem;
+    height: 20rem;
+    background-color: rgba(218, 245, 244, 0.542);
+    margin: 2rem auto;
+    border-radius:6px solid black ;
+    color: black;
+    text-align: center;
+}
+    input{
+        background-color: rgba(27, 169, 164, 0.442);
+        border-radius: 2px solid black;
+        margin: 5px;
+    }
+    input:visited{
+        background-color: rgba(220, 20, 60, 0.711);
+    }
+span{
+    float: left;
+
+  }
+
+
+
+
+
+
