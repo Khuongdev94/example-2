@@ -66,19 +66,20 @@ form{
         background-color: rgba(251, 0, 255, 0.497);
         color: rgb(20, 197, 220);
     }
-        .item1__dropdowwn{
+        .item1__dropdown{
         display: none;
         position: absolute;
         z-index: 2;
     }
-    .container ul li:hover .item1__dropdowwn{
+    .container ul li:hover .item1__dropdown{
         display: block;
     }
+
      /* dropdown vertical */
 .sidebar ul{
         list-style-type: none;
         text-align: center;
-        width: 10rem;
+        width: 8rem;
         background-color: white;
         text-transform: uppercase;
 }
@@ -109,7 +110,7 @@ form{
         position: absolute;
         z-index: 2;
         top: 0;
-        left: 10rem;
+        left: 8rem;
     }
     .sidebar ul li:hover .list__dropdowwn{
         display: block;
