@@ -145,7 +145,7 @@ form{
         z-index: 2;
     }
     #click{
-        color: rgb(255, 0, 0);
+        color: rgba(200, 16, 16, 0.804);
         display: block;
         padding-top: 2rem;
         text-decoration: none;
