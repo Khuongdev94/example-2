@@ -44,7 +44,8 @@ form{
 }
     .container ul li{
         display: inline-table;
-        width: 10rem;height: 5rem;
+        width: 15rem;
+        height: 5rem;
         line-height: 5rem;
         position: relative;
         /* border: 2px solid rgba(255, 0, 144, 0.705);
@@ -63,12 +64,13 @@ form{
     .container ul li a:hover{
         text-decoration: none;
         display: block;
-        background-color: rgba(251, 0, 255, 0.497);
+        background-color: rgba(251, 0, 255, 0.159);
         color: rgb(20, 197, 220);
     }
         .item1__dropdown{
         display: none;
         position: absolute;
+        left: 2rem;
         z-index: 2;
     }
     .container ul li:hover .item1__dropdown{
@@ -105,13 +107,13 @@ form{
         background-color: rgba(251, 0, 255, 0.497);
         color: rgb(20, 197, 220);
     }
-        .list__dropdowwn{
+        .list__dropdown{
         display: none;
         position: absolute;
         z-index: 2;
         top: 0;
         left: 8rem;
     }
-    .sidebar ul li:hover .list__dropdowwn{
+    .sidebar ul li:hover .list__dropdown{
         display: block;
     }
