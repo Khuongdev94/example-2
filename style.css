@@ -12,7 +12,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     font-weight: 500;
-    height: 2000px;
+    height: 100vh;
 }
 .style{
     color: blue;
@@ -32,9 +32,9 @@ form{
         border-radius: 2px solid black;
         margin: 5px;
     }
-    input:hover{
-        background-color: rgba(220, 20, 60, 0.711);
-    }
+        input:hover{
+            background-color: rgba(220, 20, 60, 0.711);
+        }
     /* dropdown horizoltal */
 .container ul{
     list-style-type: none;
@@ -51,31 +51,31 @@ form{
         /* border: 2px solid rgba(255, 0, 144, 0.705);
         border-radius: 10px; */
     }
-    .container ul li a{
-        text-decoration: none;
-        display: block;
-        font-size: 30px;
-        font-weight: bold;
-        background-color: aqua;
-        color: crimson;
-        border: 2px solid rgba(255, 0, 144, 0.705);
-        border-radius: 10px;
-    }
-    .container ul li a:hover{
-        text-decoration: none;
-        display: block;
-        background-color: rgba(251, 0, 255, 0.159);
-        color: rgb(20, 197, 220);
-    }
-        .item1__dropdown{
-        display: none;
-        position: absolute;
-        left: 2rem;
-        z-index: 2;
-    }
-    .container ul li:hover .item1__dropdown{
-        display: block;
-    }
+        .container ul li a{
+            text-decoration: none;
+            display: block;
+            font-size: 30px;
+            font-weight: bold;
+            background-color: aqua;
+            color: crimson;
+            border: 2px solid rgba(255, 0, 144, 0.705);
+            border-radius: 10px;
+            }
+            .container ul li a:hover{
+                text-decoration: none;
+                display: block;
+                opacity: 0.8;;
+                color: rgb(20, 197, 220);
+                }
+                .item1__dropdown{
+                display: none;
+                position: absolute;
+                left: 2rem;
+                z-index: 2;
+            }
+            .container ul li:hover .item1__dropdown{
+                display: block;
+            }
 
      /* dropdown vertical */
 .sidebar ul{
@@ -90,33 +90,31 @@ form{
         height: 3rem;
         line-height: 3rem;
         position: relative;
-        /* border: 2px solid rgba(255, 0, 144, 0.705);
-        border-radius: 10px; */
     }
-    .sidebar ul li a{
-        text-decoration: none;
-        display: block;
-        font-size: 10px;
-        font-weight: bold;
-        background-color: rgba(21, 255, 0, 0.585);
-        color: rgb(7, 67, 124);
-        border: 1px solid rgba(255, 0, 144, 0.293);
-    }
-    .sidebar ul li a:hover{
-        display: block;
-        background-color: rgba(251, 0, 255, 0.497);
-        color: rgb(20, 197, 220);
-    }
-        .list__dropdown{
-        display: none;
-        position: absolute;
-        z-index: 2;
-        top: 0;
-        left: 8rem;
-    }
-    .sidebar ul li:hover .list__dropdown{
-        display: block;
-    }
+        .sidebar ul li a{
+            text-decoration: none;
+            display: block;
+            font-size: 10px;
+            font-weight: bold;
+            background-color: rgba(21, 255, 0, 0.585);
+            color: rgb(7, 67, 124);
+            border: 1px solid rgba(255, 0, 144, 0.293);
+        }
+            .sidebar ul li a:hover{
+                display: block;
+                opacity: 0.7;;
+                color: rgb(20, 197, 220);
+            }
+                .list__dropdown{
+                display: none;
+                position: absolute;
+                z-index: 2;
+                top: 0;
+                left: 8rem;
+            }
+                .sidebar ul li:hover .list__dropdown{
+                    display: block;
+                }
     .transition{
         width: 10rem;height: 10rem;
         background-color: rgba(59, 163, 184, 0.564);
@@ -129,10 +127,10 @@ form{
         position: relative;
         border-radius: 5px;
     }
-    .transition:hover{
-        transform: rotate(4turn);
-        
-    }
+        .transition:hover{
+            transform: rotate(4turn);
+            
+        }
     .inline{
         width: 5rem;height: 5rem;
         background-color: rgba(0, 0, 255, 0.715);
@@ -144,11 +142,104 @@ form{
         transform: translate(-50%,-50%);
         z-index: 2;
     }
-    #click{
-        color: rgba(200, 16, 16, 0.804);
-        display: block;
-        padding-top: 2rem;
-        text-decoration: none;
-        font-size: 14px;
+        #click{
+            color: rgba(200, 16, 16, 0.804);
+            display: block;
+            padding-top: 2rem;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+    }
+    /* use property position */
+    .middle{
+        width: 20rem;height: 20rem;
+        background-color: chartreuse;
+        margin: 2rem auto;
+        text-align: center;
+        border: 3px solid rgba(199, 73, 73, 0.63);
+        border-radius: 10px;
+        font-size: 2rem;
         font-weight: bold;
+        box-shadow: 0 0 10px 3px rgba(69, 19, 115, 0.573);
+        transition:all 10s linear ;
+        padding: 10px;
+        position: relative;
+    }
+            .middle:hover{
+                transform: rotate(30turn);
+                background-color: #00ffff;
+                color: red;
+            }
+    .circle{
+        width: 10rem;height: 10rem;
+        background-color: rgba(10, 8, 128, 0.238);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 20px;
+        transition:all 10s linear ;
+    }
+        a{
+            text-decoration: none;
+            display: block;
+            color: crimson;
+        }
+    .middle:hover .circle{
+        background-color: rgb(255, 0, 0);
+        color: green;
+        cursor: grab;
+    }
+    /* Practices1 */
+    .textin{
+        width: 20rem;
+        height: 17rem;
+        background: url(https://www.w3schools.com/w3css/img_5terre.jpg) no-repeat ;
+        object-fit: cover;
+        background-position: top left;
+        background-color: rgba(214, 177, 177, 0.358);
+        text-align: left;
+        position: relative;
+    }
+        p{
+            position: absolute;
+            left: 5px;
+            bottom: 5px;
+        }
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #a80f0f;
+    padding: 12px 48px;
+    min-width: 120px;
+    margin: 0 auto;
+    border-radius: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    min-width: 80px;
+    box-shadow: 0 0 2px 1px red;
+}    
+    .btn_text{
+        background-color: #4aacb3;
+        min-width: 80px;
+    }
+    .btn_picture{
+        background-color: #00ffff;
+    }
+    .btn_doc{
+        background-color: #6b64bc;
+    }
+    .btn_symbol{
+        background-color: #bcb664;
+    }
+
+.btn + .btn{
+        margin-left: 50px;
+}
+    .btn:hover{
+        opacity: 0.7;
     }
