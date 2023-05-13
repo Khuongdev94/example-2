@@ -1,12 +1,13 @@
 :root { 
-  color: black;
+  color: #333;
 }
  * { 
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 html{
     font-size: 62.5%;
-    line-height: 1.4;
+    line-height: 1.6rem;
+    box-sizing: border-box;
 }
 body {   
     font-family: 'Roboto', sans-serif;
@@ -19,13 +20,12 @@ body {
     text-align: justify;
 }
 form{
-    width: 20rem;
     height: 20rem;
     background-color: rgba(218, 245, 244, 0.542);
     margin: 2rem auto;
     border-radius:6px solid black ;
     color: black;
-    text-align: center;
+    text-align: left;
 }
     input{
         background-color: rgba(27, 169, 164, 0.442);
@@ -115,13 +115,14 @@ form{
                 .sidebar ul li:hover .list__dropdown{
                     display: block;
                 }
+                /* property transition */
     .transition{
         width: 10rem;height: 10rem;
         background-color: rgba(59, 163, 184, 0.564);
         margin: 2rem auto;
         text-align: center;
         box-shadow: 0 0 1px 2px rgba(233, 9, 9, 0.189),
-        0 0 2px 3px rgba(6, 227, 54, 0.538) ,
+        0 0 2px 3px rgba(6, 227, 54, 0.538),
         0 0 0 6px rgba(241, 64, 64, 0.658);
         transition: all 2s linear;
         position: relative;
